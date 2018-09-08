@@ -1,7 +1,7 @@
 # Hackathon
 Hermes Network is a layer 2 execution market for Ethereum transactions. It comprises of two core pieces:
 - [**Hermesjs**](https://github.com/hermes-network/hermesjs) A JS library for dapp developers, which creates signed executable transactions, and publishes them to the network.
-- [**Hermes The Executor**(https://github.com/hermes-network/the-executor)] A daemon, subscribing to a channel for incoming signed transactions, and submits them to the network, paying gas, and being refunded and rewarded.
+- [**Hermes The Executor**](https://github.com/hermes-network/the-executor) A daemon, subscribing to a channel for incoming signed transactions, and submits them to the network, paying gas, and being refunded and rewarded.
 
 ## Why
 Various projects aim to improve user experience by enabling recurring fee subscriptions, delegated conditional execution or sponsored gas. These second layer execution markets all share the need for a mechanism that submit signed user transactions to the network. We hope to implement a modular relayer that fulfills these requirements.
