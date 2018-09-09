@@ -6,6 +6,10 @@ Hermes Network is a layer 2 execution market for Ethereum transactions. It compr
 
 In order to demonstrate the the workings on the Hermes Network, a [demo](https://github.com/hermes-network/demo) has been created.
 
+**Contracts on Ropsten:**
+- [**GnosisSafe**](https://ropsten.etherscan.io/address/0xf650b2e97b2305a051226b878c8e26090a7fdc1a)
+- [**SimpleStorage**](https://ropsten.etherscan.io/address/0xDC5e4DA4F07Fd2005Ce5A7a1D15d0Bbb6dF9eEec)
+
 ## Why
 Various projects aim to improve user experience by enabling recurring fee subscriptions, delegated conditional execution or sponsored gas. These second layer execution markets all share the need for a mechanism that submit signed user transactions to the network. We hope to implement a modular relayer that fulfills these requirements.
 
